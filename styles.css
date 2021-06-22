@@ -1,0 +1,122 @@
+body, html {
+    height: 100%;
+    margin: 0;
+   
+  }
+
+  .head{
+    height: 35rem;
+    margin: 0;
+
+  }
+
+  
+  .hero-image {
+    background-image:linear-gradient(-90deg, rgba(255,255,255,0.00) 0%, rgba(0,0,0,0.5) 65%), url("./assets/main-banner.png");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+.img-wave{
+    margin-bottom: -10px;
+
+}
+
+ 
+.Your-dog-gets-the-co {
+   
+    font-family: Quicksand;
+    /* font-size: 9px; */
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: #5e6e66;
+  }
+
+  .dog-title {
+    
+    font-family: Quicksand;
+  
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #36413c;
+  }
+
+  .Need-a-dog-sitter {
+     font-family: Quicksand;
+    font-size: 3rem; 
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+
+  }
+  
+
+  .Find-a-trusted-sitte {
+    max-width: 22rem;
+   
+    font-family: Quicksand;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .Learn-More-Copy-3 {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff !important;
+    background-color: #de6c17 !important;
+  }
+
+
+  .Learn-More-link {
+   
+    font-family: Quicksand;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #de6c17;
+  }
+a.Learn-More-link::after {
+    content: " >";
+  }
+
+  @media (max-width: 575.98px) {
+       .head{
+    height: 25rem;   
+
+  } }
+
+
+@media (max-width: 767.98px) {
+    .head{
+        height: 25rem;      
+    
+      }
+
+      .Need-a-dog-sitter {
+               font-size: 1.7rem;
+      }
+
+ }
+
+
+ 
